@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Navbar</title>
+    <style>
+    .auto {
+      display: inline-block;    /* Shrinks/grows to fit content */
+      padding: 10px;
+      font-size: 16px;
+      margin-left: 0;  
+	  border: 5px black;
+    }   
+   /* House Image */
+        .house-image {
+            border: 5px solid black;
+            padding: 5px;
+            display: block;
+            width: 50px; /* Adjust size */
+            height: auto;
+         c
+        }
+
+        /* Background */
+        body {
+            background: linear-gradient(to bottom, white, #D4D4D4, white);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(to right, gray, white);
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        /* Navbar Links */
+        .nav-links {
+            display: flex;
+            gap: 20px; /* Space between links */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: black;
+        }
+
+        /* Content */
+        .content {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Footer */
+        .footer {
+         
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+
+        .footer a {
+            color: lightblue;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Reduce space under heading */
+.content {
+    flex: 1;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+/* Move members section up into the red area */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 5	0px;
+    margin-top: -100px; /* Move up */
+}
+
+/* Ensure boxes fit neatly */
+.border {
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px; /* optional rounded corners */
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+.borde {
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px; /* optional rounded corners */
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+  .bordes {
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px; /* optional rounded corners */
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+/* Image Adjustments */
+.border img {
+    width: 80px; /* Reduce image size */
+    height: auto;
+    display: block;
+    margin: 0 auto 5px;
+}
+.black {
+    color: black;
+}
+    body {
+      text-align: left;         /* Makes sure parent aligns left */
+      margin: 0;                /* Removes browser default spacing */
+      padding: 20px;            /* Optional padding around the page */
+    }
+	  .box-container {
+    display: flex;
+    gap: 10px; /* adds space between boxes */
+  }
+    </style>
+</head>
+<body>
+
+	<!-- Navbar -->
+<nav class="navbar">
+    <a href="web.html">
+        <img src="house.png" alt="House Logo" class="house-image">
+    </a>
+
+</nav>
+<div class="border">
+  <h2>European Literary Background</h2>
+</div>
+<!-- Stack 2 with side-by-side boxes -->
+<div class="box-container">
+  <div class="borde">
+    <h2>Ancient Greek</h2>
+    <p>Was Divided Into 5 periods Mycenaean Period (c. 1600-1100 BCE),Dark Ages (c. 1100-800 BCE),Archaic Period (c. 800-500 BCE), Classical Period(c. 500-323 BCE), Hellenistic Period (c. 323-30 BCE), Began after the Greek Dark Ages, following the Mycenaean civilization,and ended at the death of the Roman Emperor Alxander the great</p>
+  </div>
+
+  <div class="borde">
+    <h2>Medieval period</h2>
+    <p>Also known as the middle ages, divided into three Ages Early Middle Ages (c. 5th to 10th century), High Middle Ages (c. 10th to 13th century), Late Middle Ages (c. 13th to 15th century). Starting at the Fall of the Roman Empire, Ending at the fall of Constantinople to the Ottoman Empire marking the end of the Byzantine Empire, And Starting a new age of exploration started by Christopher Columbus when he arrived in America</p> 
+ </div>
+  <div class="borde">
+    <h2>Renaissance period</h2> 	
+    <p>Also known the age of Rebirth, was Divided into three timelines Early Renaissance (1401-1490), High Renaissance (1490s-1520s), Late Renaissance (1520s-1600), The Renaissance immediately following the Middle Ages and conventionally held to have been characterized by a surge of interest in Classical scholarship and values. ended in Italy with the fall of Rome in 1527, and it was eclipsed by the Reformation and Counter-Reformation elsewhere in Europe by the end of the 16th century. </p>
+  </div>
+    <div class="borde">
+    <h2>Modern era</h2>
+    <p>The Modern Era in European history began in the late 18th century, marked by transformative events such as the French Revolution (1789), which ended monarchical rule and introduced democratic ideals, and the Industrial Revolution (1760–1840), which brought significant technological, social, and economic changes. Key features of this era include the rise of nation-states, secularization, rapid scientific advancements, capitalist economies, global trade expansion, and revolutionary movements promoting liberty and equality. These developments fundamentally reshaped European society.</p>
+	</div>
+</div>
+<div class="border">
+  <h2>Few known Poets/Authors</h2>
+</div>
+<div class="box-container"	>
+  <div class="bordes">
+    <h2><img src="homer.png" width="200" height="200" style="border: 2px solid black;"></h2>
+	<h2>Homer</h2>
+    <p>Was a blind poet who wrote the two Epics, The Iliad and the Odyssey, Born around the 8th century BCE, Homer was considered as the most Influential author in ancient Greek if not the whole world</p>
+  </div>
+
+  <div class="bordes">
+    <h2><img src="geo.webp" width="200" height="200" style="border: 2px solid black;"></h2>
+	<h2>Geoffrey Chaucer</h2>
+    <p>He was an English poet, author, a civil servant best known for The Canterbury Tales. He has been called the "father of English literature", or, alternatively, the "father of English poetry". He was the first writer to be buried in what has since come to be called Poets' Corner, in Westminster Abbey.</p> 
+</div>
+</div>
+<div class="box-container"	>
+  <div class="bordes">
+  <img src="mig.jpg" width="200" height="200" style="border: 2px solid black;">
+    <h2>Miguel de Cervantes</h2>
+    <p>was a Spanish writer widely regarded as the greatest writer in the Spanish language and one of the world's pre-eminent novelists. He is best known for his novel Don Quixote, a work considered as the first modern novel.e</p>
+  </div>
+
+  <div class="bordes">
+  <img src="flo.webp" width="200" height="200" style="border: 2px solid black;">
+    <h2>Fyodor Dostoevsky</h2>
+    <p>was a Spanish writer widely regarded as the greatest writer in the Spanish language and one of the world's pre-eminent novelists. He is best known for his novel Don Quixote, a work considered as the first modern novel.</p> 
+</div>
+</div>
+<div class="border">
+  <h2>Known peices of litratue</h2>
+</div>	
+<div class="box-container">
+  <div class="borde">
+    <h2><img src="Download.jpg" width="200" height="200" style="border: 2px solid black;"></h2>
+	<h2>The Odyssey</h2>
+    <p>The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences.</p>
+  </div>
+
+  <div class="borde">
+    <h2><img src="can.jpg" width="200" height="200" style="border: 2px solid black;"></h2>
+	<h2>the canterbury tales</h2>
+    <p>The framing device for the collection of stories is a pilgrimage to the shrine of Thomas Becket in Canterbury, Kent. written by Geoffrey Chaucer in middle English (1387-1400)</p> 
+ </div>
+  <div class="borde">
+    <h2><img src="don.jpg" width="200" height="200" style="border: 2px solid black;"></h2>
+	<h2>Don Quixote</h2>
+    <p>is a Spanish novel by Miguel de Cervantes. It was originally published in two parts, in 1605 and 1615. Considered a founding work of Western literature, it is often said to be the first modern novel.</p>
+  </div>
+	<div class="borde">
+    <h2><img src="crime.jpg" width="200" height="200" style="border: 2px solid black;"></h2>
+	<h2>Crime and Punishment</h2>
+    <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866.</p>
+  </div>
+</div>
+<footer class="footer">
+    &copy; 2025 European Literature |
+    <a href="https://youtu.be/GBIIQ0kP15E" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+    <a href="#">Contact</a>
+</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
